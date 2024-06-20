@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 # this where the front end served mainly
 # this is to allow react app to be allowed to interact with the api
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000',
+    'http://localhost:5173',
 )
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
